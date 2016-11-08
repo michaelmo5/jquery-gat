@@ -1,3 +1,4 @@
+/* EXAMPLE */
 .center {
 	display: block;
 	margin-left: auto;
@@ -5,3 +6,51 @@
 	left: 0;
 	right: 0;
 }
+
+/* GAT */
+
+.gat-widget {
+	position: relative;
+	display: block;
+	
+	border: 1px solid #333;
+}
+
+.gat-widget textarea {
+	margin: 0;
+	border: 0;
+	
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	
+	box-sizing: border-box;
+}
+
+.gat-controls {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 25px;
+	width: 25px;
+	
+	background-color: #3C3;
+	
+	background-image: url('../img/mic.png');
+	background-size: 25px 25px;
+    background-repeat: no-repeat;
+	background-position: center;
+	
+	cursor: pointer;
+	opacity: 0.3;
+}
+
+.gat-controls:hover {
+	opacity: 0.9;
+}
+
+.gat-controls.active {
+	background-color: red;
+	opacity: 0.8;
+}
+
