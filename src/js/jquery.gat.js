@@ -9,7 +9,7 @@
 		this.addClass( "gat-textarea" );
 		this.wrap('<div class="gat-widget">').after('<div class="gat-controls"> </div>');
 		
-		
+		this.val('API_KEY: ' + API_KEY);
 		
 		return this;
 	};
